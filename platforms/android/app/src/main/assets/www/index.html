@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Generic Data Viewing Application</title>
+		
+		<!-- Latest compiled jQuery -->
+		<script
+		src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"></script>
+		<!-- Latest compiled and minified JavaScript for Bootstrap-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- Latest compiled and minified CSS for Bootstrap-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- CDN for Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+		<!--my own CSS file -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		
+		<!-- This file has its own internal CSS stylesheet -->
+		<style type="text/css">
+			table th {
+				background-color:  #333366 !important; /*I wanted navy blue*/
+			}
+			.thumbnail span{
+				color: #FF0000;
+				font-weight: bold;
+				font-size: 1.5em;
+				text-transform: uppercase;
+				height: 100px;
+				width: 100px;
+			}
+		</style>
+    </head>
+    <body>
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+				<a href="index.html" class="navbar-brand">Home</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="page1.html">Page 1</a></li>
+					<li><a href="page2.html">Page 2</a></li>
+					<li><a href="page3.html">Page 3</a></li>
+					<li><a href="page4.html">Page 4</a></li>
+				</ul>
+			</div>
+		</nav>
+
+	<!-- Open the key -->
+	<button id="keyBtn" class="Button1" style="background-color: #FF9900;"><i class="fas fa-key"></i></button>
+
+	<!-- the key -->
+	<div id="keyModal" class="modal">
+	  <div class="modal-content">
+	    <span class="close">&times;</span>
+	    <table id="keyTable">
+	    	<tr>
+	    		<th>Name</th>
+	    		<th>Definition</th>
+	    	</tr>
+	    	<tr>
+	    		<th>f</th>
+	    		<th>forward</th>
+	    	</tr>
+	    	<tr>
+	    		<th>b</th>
+	    		<th>backward</th>
+	    	</tr>
+	    	<tr>
+	    		<th>d</th>
+	    		<th>down</th>
+	    	</tr>
+	    	<tr>
+	    		<th>u</th>
+	    		<th>up</th>
+	    	</tr>
+
+	    	
+	    </table>
+	  </div>
+	</div>
+	
+	<!-- Open the about -->
+	<button id="iBtn" class="Button1" style="background-color: #0099FF;"><i class="fas fa-info"></i></button>
+
+	<!-- the about -->
+	<div id="iModal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<h3>About</h3>
+			<h3>About</h3>
+			<div class="container" id="mssg">
+				<p>Hello, developer here. This is a template application for whoever wants to make a web or mobile application regarding users viewing some kind of data.
+					In this section you would fill it out with any necessary insights you wish to communicate with the user. Typically some meta information such as update release notes and announcements. However, do not burden the user with too much information.
+				<p>Once again please redirect any questions, feedback or corrections based on the app to my developer Twitter account <a href="https://twitter.com/RayGarc7"><strong>@RayGarc</strong></a></p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Open the note-taking section -->
+	<button id="noteBtn" class="Button1" style="background-color: #FF0033;">
+		<i class="fas fa-clipboard"></i>
+	</button>
+
+	<!-- the Note-taking section -->
+	<div id="noteModal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<div class="noteSection">
+				<h3 class="note-header">General Notes</h3>
+				<input type="text" id="noteInput" placeholder="Add A New Note">
+
+				<ul id="index-note-list" class="note-list fa-ul custom-list">
+				</ul>
+			</div>
+		</div>
+	</div>	
+
+	<!--Enable functionality for the modals-->
+	<script src="modal.js"></script>
+		
+
+		<div class="container" id="character-grid">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6 col-md-4">
+						<!-- the thumbnail class makes the images fit inside the grid columns neatly -->
+						<div class="thumbnail">
+							<a href="pager1.html">
+								Page 1
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xs-6 col-md-4">
+						<div class="thumbnail">
+							<a href="page2.html">
+								Page 2
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-6 col-md-4">
+						<div class="thumbnail">
+							<a href="page3.html">
+								Page 3
+							</a>
+						</div>
+					</div>
+				
+					<!-- We can have more images inside the same "row" class div tag -->
+					<div class="col-xs-6 col-md-4">
+						<div class="thumbnail">
+							<a href="page4.html">
+								Page 4
+							</a>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+
+
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/storage.js"></script>
+    </body>
+</html>

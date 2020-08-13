@@ -1,0 +1,69 @@
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo
+Standing LP,4,13,7,4,0,1,2,5,-5,-1,21,11,15
+Standing MP,6,26,7,13,0,2,4,-1,-11,-7,26,16,20
+Standing HP,8,30,7,19,0,3,6,2,0,2,31,29,31
+Standing LK,5,20,7,4,0,1,2,-1,-11,-7,21,11,15
+Standing MK,6,25,7,13,0,2,4,0,-10,-6,26,16,20
+Standing HK,11,34,7,19,0,3,6,1,-1,1,31,29,31
+Crouching LP,5,14,7,3,0,1,1,5,-5,-1,21,11,15
+Crouching MP,6,19,7,12,0,2,4,6,-4,0,26,16,20
+Crouching HP,7,33,7,18,0,3,6,-2,-9,-6,31,24,27
+Crouching LK,5,18,7,3,0,1,1,1,-,-5,21,-,15
+Crouching MK,6,21,7,12,0,2,4,4,-,-2,26,-,20
+Crouching HK,10,33,7,18,0,3,6,-,-,1,-,-,31
+Shadow Upper,14,43,7,15,0,2,4,-10,-20,-16,26,16,20
+Shadow Heel,23,49,7,19,0,3,6,-2,-17,-,31,16,-
+jump,frames,EX Arrow,,,,,,,,,,,
+Neutral Jump,40,41～44,,,,,,,,,,,
+Forward jump,40,42～46,,,,,,,,,,,
+Back jump,41,41～44,,,,,,,,,,,
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo
+Jumping LP,5,-,9,5,0,1,2,15,5,-,26,16,-
+Jumping MP,5,-,9,15,0,2,4,15,13,-,26,24,-
+Jumping HP,5,-,9,21,0,3,6,15,13,-,26,24,-
+Jumping LK,4,-,9,5,0,1,2,15,5,-,26,16,-
+Jumping MK,4,-,9,15,0,2,4,15,13,-,26,24,-
+Jumping HK,7,-,9,21,0,3,6,15,13,-,26,24,-
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo
+Hard Attack (MP+MK),28,71,7,23,0,3,6,-13,-34,4,37,16,54
+Throw,3,35,-,29,0,-,7,-,-,-,-,-,-
+Back Throw,3,35,-,"12,17",0,-,7,-,-,-,-,-,-
+Air Throw,3,-,-,34,0,-,7,-,-,-,-,-,-
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo
+Shadow Aegis (L),"12,20,29",57,"2,2,2","5,5,12",2,3,5,-,-14,-10,-,16,20
+Shadow Aegis (M),"12,16,21,26",57,"2,2,2,2","5,5,5,12",2,3,6,-,-17,-13,-,16,20
+Shadow Aegis (H),"12,15,18,
+21,24",57,"2,2,2,2,2","5,5,5,5,12",2,3,7,-,-19,-15,-,16,20
+Shadow Break (L),14,59,0,21,4,2,4,-,-16,-14,-,29,31
+Shadow Break (M),16,65,0,21,4,2,4,-,-20,-18,-,29,31
+Shadow Break (H),18,71,0,21,4,2,4,-,-24,-22,-,29,31
+Shadow Sword Kick (L),11,28～,13,21,3,2,4,9,-6,-2,31,16,20
+Shadow Sword Kick (M),11,28～,13,21,3,2,4,9,-6,-2,31,16,20
+Shadow Sword Kick (H),11,28～,13,21,3,2,4,9,-6,-2,31,16,20
+Shadow Summer (L),5,41,7,21,4,2,4,-,-14,-12,-,29,31
+Shadow Summer (M),5,42,7,21,4,2,4,-,-15,-13,-,29,31
+Shadow Summer (H),5,44,7,21,4,2,4,-,-17,-15,-,29,31
+Shadow Press (L),36,63,"ヒット: 2
+ガード: 7",17,3,1,3,8,-5,-3,37,29,31
+Shadow Press (M),36,63,"ヒット: 2
+ガード: 7",17,3,1,3,8,-5,-3,37,29,31
+Shadow Press (H),36,63,"ヒット: 2
+ガード: 7",17,3,1,3,8,-5,-3,37,29,31
+name,startup,,total,damage,meter gain,,,,,,,,
+,"before
+freeze","after
+freeze",,,whiff,blo,hit,,,,,,
+Alpha Rising  ,9,10,87,"12,9,9,6,21",0,1,1,,,,,,
+Alpha Rising (Air),3,7,78,"8,8,12,8,8,21",0,1,1,,,,,,
+Beta Government ,11,4,48,"5*7,5,12",0,1,1,,,,,,
+Epsilon Nightmare,5,10,43,60,0,0,0,,,,,,
+Epsilon Aerial Nightmare,5,1,10,60,0,0,0,,,,,,
+Omega END,7,10,92,34,0,1,1,,,,,,

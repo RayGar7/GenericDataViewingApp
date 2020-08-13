@@ -1,0 +1,91 @@
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo
+Standing LP,4,14,7,4,0,1,2,4,-6,-2,21,11,15
+Standing MP,5,31,9,"8,5",0,"2,1","4,3",-1,-19,-15,26,16,20
+"Standing MP
+(2nd hit only)",6,31,7,5,0,1,3,-6,-16,-12,26,16,20
+Standing HP,9,33,7,19,0,3,6,0,-2,0,31,29,31
+Standing LK,5,17,7,4,0,1,2,2,-8,-4,21,11,15
+Standing MK,6,26,7,13,0,2,4,-1,-11,-7,26,16,20
+Standing HK,9,33,7,19,0,3,6,0,-2,0,31,29,31
+Crouching LP,5,13,7,3,0,1,1,6,-4,0,21,11,15
+Crouching MP,6,19,7,11,0,2,4,6,-4,0,26,16,20
+Crouching HP,7,31,7,18,0,3,6,0,-2,0,31,29,31
+Crouching LK,5,15,7,3,0,1,1,4,-,-2,21,-,15
+Crouching MK,7,22,7,11,0,2,4,4,-,-2,26,-,20
+Crouching HK,10,40,7,17,0,3,6,-,-,-6,-,-,31
+Touchuhoh,25,47,7,19,0,2,4,-3,-13,-,26,16,-
+jump,frames,EX Arrow,,,,,,,,,,,
+Neutral Jump,39,41～44,,,,,,,,,,,
+Forward jump,39,42～46,,,,,,,,,,,
+Back jump,38,41～44,,,,,,,,,,,
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo
+Jumping LP,4,-,9,4,0,1,2,15,5,-,26,16,-
+Jumping MP,5,-,9,13,0,2,4,15,13,-,26,24,-
+Jumping HP,5,-,9,19,0,3,6,15,13,-,26,24,-
+Jumping LK,4,-,9,4,0,1,2,15,5,-,26,16,-
+Jumping MK,4,-,9,13,0,2,4,15,13,-,26,24,-
+Jumping HK,7,-,9,19,0,3,6,15,13,-,26,24,-
+Rakushichigeki,5,-,9,13,0,2,4,15,5,-,26,16,-
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo
+Hard Attack (MP+MK),27,71,7,23,0,3,6,-14,-35,3,37,16,54
+Throw,3,35,-,29,0,-,7,-,-,-,-,-,-
+Back Throw,3,35,-,29,0,-,7,-,-,-,-,-,-
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo
+Sanrenkon(1) (L),8,46,7,12,4,1,2,-8,-16,-14,37,29,31
+Sanrenkon(1) (M),8,46,7,17,4,1,2,-14,-21,-18,31,24,27
+Sanrenkon(1) (H),8,56,7,21,4,1,2,-24,-31,-28,31,24,27
+"Sanrenkon(2) (L,L)",22,60,7,8,1,0,0,-8,-16,-14,37,29,31
+"Sanrenkon(2) (L,M)",22,60,7,8,1,0,0,-14,-21,-18,31,24,27
+"Sanrenkon(2) (L,H)",22,78,7,12,1,0,0,-32,-39,-36,31,24,27
+"Sanrenkon(3) (L,L,L)",21,75,7,8,2,0,0,-,-32,-30,,29,31
+"Sanrenkon(3) (L,L,M)",21,79,7,8,2,0,0,-,-36,-34,,29,31
+"Sanrenkon(3) (L,L,H)",21,92,7,8,2,0,0,-,-49,-47,,29,31
+Kasumioroshi(1) (L),31,46,26,8,4,0,0,-4,-25,-21,37,16,20
+Kasumioroshi(1) (M),31,46,21,8,4,0,0,1,-20,-16,37,16,20
+Kasumioroshi(1) (H),31,46,21,8,4,0,0,1,-20,-16,37,16,20
+"Kasumioroshi(2) (L,L)",19,41,22,8,0,0,0,-7,-28,-24,37,16,20
+"Kasumioroshi(2) (L,M)",19,41,18,8,0,0,0,-3,-24,-20,37,16,20
+"Kasumioroshi(2) (L,H)",19,41,18,8,0,0,0,-3,-24,-20,37,16,20
+"Kasumioroshi(2) (M,L)",19,36,25,8,0,0,0,-5,-26,-22,37,16,20
+"Kasumioroshi(2) (M,M)",19,36,20,8,0,0,0,0,-21,-17,37,16,20
+"Kasumioroshi(2) (M,H)",19,36,20,8,0,0,0,0,-21,-17,37,16,20
+"Kasumioroshi(2) (H,L)",-,36,-,-,0,0,0,-,-,-,-,-,-
+"Kasumioroshi(2) (H,M)",-,36,-,-,0,0,0,-,-,-,-,-,-
+"Kasumioroshi(2) (H,H)",19,36,20,8,0,0,0,0,-21,-17,37,16,20
+"Kasumioroshi(3) (L,L,L)",19,46,20,8,0,0,0,-10,-31,-27,37,16,20
+"Kasumioroshi(3) (M,M,M)",19,37,20,8,0,0,0,-1,-22,-18,37,16,20
+"Kasumioroshi(3) (H,H,H)",19,37,20,8,0,0,0,-1,-22,-18,37,16,20
+Kasumioroshi (L),37,52,26,8,4,0,0,-4,-25,-21,37,16,20
+(派生)Kasumioroshi (M),37,52,21,8,4,0,0,1,-20,-16,37,16,20
+(派生)Kasumioroshi (H),37,52,21,8,4,0,0,1,-20,-16,37,16,20
+Tenshoukun (L),8,42,7,17,4,1,2,-10,-17,-14,31,24,27
+Tenshoukun (M),8,52,7,17,4,1,2,-20,-27,-24,31,24,27
+Tenshoukun (H),8,62,7,17,4,1,2,-30,-37,-34,31,24,27
+(派生)Tenshoukun (L),13,47,7,17,4,1,2,-10,-17,-14,31,24,27
+(派生)Tenshoukun (M),13,57,7,17,4,1,2,-20,-27,-24,31,24,27
+(派生)Tenshoukun (H),13,67,7,17,4,1,2,-30,-37,-34,31,24,27
+Gekkyoubotan (L),6,62,-,-,4,-,4,-,-,-,-,-,-
+Gekkyoubotan (M),6,72,-,-,4,-,4,-,-,-,-,-,-
+Gekkyoubotan (H),6,82,-,-,4,-,4,-,-,-,-,-,-
+(派生) 打撃,14,64,7,21,0,3,6,-,-41,-37,-,16,20
+(派生) Launch,17,65,7,8,0,3,6,-,-39,-35,-,16,20
+Ryusui (L),3,35,-,0,2,-,4,7,-,-,-,-,-
+Ryusui (M),3,35,-,0,2,-,4,7,-,-,-,-,-
+Ryusui (H),3,35,-,0,2,-,4,7,-,-,-,-,-
+name,startup,total,damage,meter gain,,,,,,,,,
+,"before
+freeze","after
+freeze",,,whiff,blo,hit,,,,,,
+Iza Yoirekkon ,11,1,99,"8,8,8,5*8",0,1,1,,,,,,
+Yayoitoukongi,8,8,57,"9,6,6,6,8",0,1,1,,,,,,
+Yayoitoukongi (Air),12,5,64,"9,6,6,6,8",0,1,1,,,,,,
+Ariake (Set),-,0,-,-,0,-,-,,,,,,
+Ariake(Return),-,10,43,"9,6,6,6,8",0,1,1,,,,,,

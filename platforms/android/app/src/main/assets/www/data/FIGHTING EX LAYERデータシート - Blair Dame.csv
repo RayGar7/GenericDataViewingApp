@@ -1,0 +1,67 @@
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo
+Standing LP,4,12,7,4,0,1,2,6,-4,0,21,11,15
+Standing MP,8,24,7,13,0,2,4,3,-7,-3,26,16,20
+Standing HP,11,35,7,19,0,3,6,0,-2,0,31,29,31
+Standing LK,5,17,7,4,0,1,2,2,-8,-4,21,11,15
+Standing MK,6,25,7,13,0,2,4,0,-10,-6,26,16,20
+Standing HK,12,34,7,19,0,3,6,2,0,2,31,29,31
+Crouching LP,5,14,7,3,0,1,1,5,-5,-1,21,11,15
+Crouching MP,6,19,7,12,0,2,4,6,-4,0,26,16,20
+Crouching HP,7,31,7,18,0,3,6,0,-7,-4,31,24,27
+Crouching LK,5,16,7,3,0,1,1,3,-,-3,21,-,15
+Crouching MK,6,21,7,12,0,2,4,4,-,-2,26,-,20
+Crouching HK,10,37,7,18,0,3,6,-,-,-3,-,-,31
+Tegetana,10,33,7,15,0,3,6,1,-1,1,31,29,31
+Lighting Sword,21,45,7,18,0,2,4,-,-15,-11,-,16,20
+jump,frames,EX Arrow,,,,,,,,,,,
+Neutral Jump,39,41～44,,,,,,,,,,,
+Forward jump,39,42～46,,,,,,,,,,,
+Back jump,38,41～44,,,,,,,,,,,
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo
+Jumping LP,4,-,9,5,0,1,2,15,5,-,26,16,-
+Jumping MP,5,-,9,15,0,2,4,15,13,-,26,24,-
+Jumping HP,5,-,9,21,0,3,6,15,13,-,26,24,-
+Jumping LK,4,-,9,5,0,1,2,15,5,-,26,16,-
+Jumping MK,4,-,9,15,0,2,4,15,13,-,26,24,-
+Jumping HK,7,-,9,21,0,3,6,15,13,-,26,24,-
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo
+Hard Attack (MP+MK),28,71,7,17,0,3,6,-13,-34,4,37,16,54
+Throw,3,35,-,"8,8,6,7",0,-,7,-,-,-,-,-,-
+Back Throw,3,35,-,29,0,-,7,-,-,-,-,-,-
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo
+Shoot Kick(Stage 1) (L),"8,20,44",70,"2,2,7","8,5,3",3,3,4,-2,-17,-13,31,16,20
+Shoot Kick (Stage 1) (M),"8,20,44",70,"2,2,7","8,5,3",3,3,4,-2,-17,-13,31,16,20
+Shoot Kick (Stage 1) (H),"8,20,44",70,"2,2,7","8,5,3",3,3,4,-2,-17,-13,31,16,20
+Shoot Kick (Stage 2) (L),22,71,7,2,-,1,1,-19,-32,-29,37,24,27
+Shoot Kick (Stage 2) (M),22,71,7,2,-,1,1,-19,-32,-29,37,24,27
+Shoot Kick (Stage 2) (H),22,71,7,2,-,1,1,-19,-32,-29,37,24,27
+Shoot Kick (Stage 3) (L),27,53,0,5,-,1,1,-,-15,-11,-,11,15
+Shoot Kick (Stage 3) (M),27,53,0,5,-,1,1,-,-15,-11,-,11,15
+Shoot Kick (Stage 3) (H),29,61,0,5,-,1,1,-,-21,-17,-,11,15
+Lighting Knee (Stage 1) (L),7,41,7,11,7,1,2,-,-12,-10,-,29,31
+Lighting Knee (Stage 1) (M),7,44,7,11,7,1,2,-,-15,-13,-,29,31
+Lighting Knee (Stage 1) (H),7,46,7,11,7,1,2,-,-17,-15,-,29,31
+Lighting Knee (Stage 2) (L),7,52,7,11,-,1,1,-,-23,-21,-,29,31
+Lighting Knee (Stage 2) (M),7,53,7,11,-,1,1,-,-24,-22,-,29,31
+Lighting Knee (Stage 2) (H),7,53,7,11,-,1,1,-,-24,-22,-,29,31
+Sliding Arrow (L),10,44,7,"5,25",4,1,"2,9",-,-,-26,-,-,15
+Sliding Arrow (M),10,48,7,"5,25",4,1,"2,9",-,-,-30,-,-,15
+Sliding Arrow (H),10,56,7,"5,25",4,1,"2,9",-,-,-38,-,-,15
+Shoot Upper (L),12,39,7,16,5,2,5,-3,-5,-3,31,29,31
+Shoot Upper (M),"12,38",69,"7,7","13,12",5,"2,1","5,2",-,-14,-11,-,24,27
+Shoot Upper (H),"12,38",69,"7,7","13,12",5,"2,1","5,2",-,-14,-11,-,24,27
+name,startup,,total,damage,,meter gain,,,,,,,
+,"before
+freeze","after
+freeze",,,,whiff,blo,hit,,,,,
+Mirage Combo Kick,3,5,98,"8*5,12",,0,1,1,,,,,
+Spin Side Shoot,3,10,107,"8*4,29",,0,1,1,,-,,,
+Fairy Spear,3,2,39,11*4,,0,0,0,,-,,,

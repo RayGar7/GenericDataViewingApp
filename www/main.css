@@ -1,0 +1,259 @@
+* {
+	font-size: 1.0em;
+}
+
+/*TODO: the bacckground image must change with the night mode enabled*/
+body {
+	background-image: url("images/Clouds.jpg");
+	/*these two lines make the background responsive*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.footer {
+	position: absolute;
+	right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 7px;
+  margin-top: 7%;
+  background-color: #1c1c1c;
+  position: fixed; /*makes it stick to the very bottom of the page */
+  bottom: 0;	/*places it at the bottom of the page */
+	overflow: auto;
+}
+
+.footer p {
+  text-align: center;	/* aligns text to the center*/
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+}
+
+.navbar-default {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+tr {
+	padding-top: 130px;
+	margin-top: 130px;
+	padding-bottom: 100px;
+	margin-bottom: 100px;
+}
+
+tbody {
+	padding-top: 20px;
+	margin-top: 100px;
+	padding-bottom: 80px;
+	margin-bottom: 100px;
+  font-size: 0.83em;
+}
+
+
+#character-grid {
+	margin-top: 5px;
+	padding-top: 5px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+#mssg {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  font-size: 0.83em;
+}
+
+
+h2 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+/*Each table will get use most of this file's CSS, but for specific colors they will have use <style> tags from their own file*/
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+	overflow-x: auto;
+  text-align: center;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 10% 0;
+}
+
+table tr { 
+  padding: 5% 0;
+  background-color: #ffffff;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+/*  padding-top: 12px;
+  padding-bottom: 12px;*/
+  text-align: center;
+  background-color: white;
+  color: white;
+}
+
+ td[colspan] {
+  color: white;  
+  font-weight: bolder;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.5em;
+ }
+
+.character-tables {
+	padding-top: 0px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	overflow: auto;
+}
+
+/* The Modal (background) for the key*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content for the key*/
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+}
+
+/* The Close Button for the key*/
+.close {
+  color: #FF0033;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Modal button for the key*/
+.Button1 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 50%;/* Make it a circle */
+	border: none;
+	color: white;
+	width: 40px;
+	height: 40px;
+  outline:none;
+
+}
+
+/*Styling fo the note taking section*/
+.note-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.note-header {
+  color: #FF0033;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+  width: 90%;
+}
+
+input[type=text] {
+  font-size: 18px;
+  color: #2980b9;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  border: 3px solid rgba(255, 20, 147,0.6);
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* The next four selectors are a part of the other things inside the note module*/
+.note-list {
+  overflow-wrap: break-word;
+  width: 100%;
+  list-style: none;
+}
+
+.note-list li {
+  background: #fff;
+  height: 40px;
+  line-height: 20px;
+  color: #666;
+  text-transform: none;
+  font-size: 0.9em;  
+  max-width: 100%; /*limit width */
+  word-break:break-all; /* wrap extended text*/
+}
+
+.note-list li:nth-child(2n){
+  background: #f7f7f7;
+}
+
+/*The delete "button" inside a list item*/
+.note-list li span {
+  height: 20px;
+  padding: 3px 5px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 30px;
+  border-radius: 50%;/* Make it a circle */
+  border: none;
+  text-align: justify;
+  color: white;
+  background-color: #FF0033;
+  border-radius: 50%;
+  transition: 0.2s linear;
+}

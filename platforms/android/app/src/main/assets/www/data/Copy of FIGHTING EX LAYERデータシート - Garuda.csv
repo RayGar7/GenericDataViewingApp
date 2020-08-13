@@ -1,0 +1,72 @@
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo,
+Standing LP,4,13,7,4,0,1,2,5,-5,-1,21,11,15,
+Standing MP,7,25,7,15,0,2,4,1,-9,-5,26,16,20,
+Standing HP,9,30,7,19,0,3,6,3,1,3,31,29,31,
+Standing LK,5,17,7,4,0,1,2,2,-8,-4,21,11,15,
+Standing MK,8,32,7,15,0,2,4,-5,-15,-11,26,16,20,
+Standing HK,12,33,7,19,0,3,6,3,1,3,31,29,31,
+Crouching LP,5,13,7,3,0,1,1,6,-4,0,21,11,15,
+Crouching MP,6,19,7,12,0,2,4,6,-4,0,26,16,20,
+Crouching HP,7,31,7,18,0,3,6,0,-7,-4,31,24,27,
+Crouching LK,5,15,7,3,0,1,1,4,-,-2,21,-,15,
+Crouching MK,6,22,7,12,0,2,4,3,-,-3,26,-,20,
+Crouching HK,10,33,7,18,0,3,6,-,-,1,-,-,31,
+Zanki,"9,34",61,"0,7","11,12",0,1*2,3*2,-,-5,-3,-,29,31,
+Kyoja,"13,24,33",77,"0,0,7","9,8,8",0,1*3,2*3,-,-22,-20,-,29,31,
+jump,frames,EX Arrow,,,,,,,,,,,,
+Neutral Jump,47,41～44,,,,,,,,,,,,
+Forward jump,44,42～46,,,,,,,,,,,,
+Back jump,47,41～44,,,,,,,,,,,,
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo,
+Jumping LP,4,-,9,5,0,1,2,15,5,-,26,16,-,
+Jumping MP,5,-,9,15,0,2,4,15,13,-,26,24,-,
+Jumping HP,5,-,9,21,0,3,6,15,13,-,26,24,-,
+Jumping LK,5,-,9,5,0,1,2,15,5,-,26,16,-,
+Jumping MK,4,-,9,15,0,2,4,15,13,-,26,24,-,
+Jumping HK,8,-,9,21,0,3,6,15,13,-,26,24,-,
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo,
+Hard Attack (MP+MK),27,71,7,23,0,3,6,-14,-22,3,37,29,54,
+Throw,3,35,-,"12,17",0,-,7,-,-,-,-,-,-,
+Back Throw,3,35,-,29,0,-,7,-,-,-,-,-,-,
+Air Throw,3,-,-,34,0,-,7,-,-,-,-,-,-,
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,,
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo,
+Shuga (L),"14,16,18,20",44,0,4*4,4,4,4,-,5,7,-,29,31,4Hit
+Shuga (M),"14,16,18,
+20,22,24",49,0,4*6,4,5,5,-,4,6,-,29,31,6Hit
+Shuga (H),"14,16,18,20,
+22,24,26,28",54,0,4*8,4,6,6,-,3,5,-,29,31,8Hit
+Kizan (L),9,86,"7,0*5","5,2*5",6,1,2,-,-31,-29,-,29,31,"ガード時発生
+9,27,33"
+Kizan (M),9,112,"7,0*8","8,2*8",6,2,4,-,-58,-56,-,29,31,"ガード時発生
+9,27,32"
+Kizan (H),9,129,"7,0*11","10,2*11",6,3,6,-,-77,-75,-,29,31,"ガード時発生
+9,27,30"
+Gouga (L),10,81,21,5*8,4,4,4,-,-35,-33,-,29,31,
+Gouga (M),10,91,21,5*8,4,6,6,-,-45,-43,-,29,31,
+Gouga (H),10,101,21,5*8,4,8,8,-,-55,-53,-,29,31,
+Jazan (L),45,103,,21,4,5,10,,,,,,,
+Jazan (M),45,103,,21,4,5,10,,,,,,,
+Jazan (H),45,103,,21,4,5,10,,,,,,,
+name,startup,,total,damage,meter gain,,,,,,,,,
+,"before
+freeze","after
+freeze",,,whiff,blo,hit,,,,,,,
+Kienbu,8,2,111,8*11,0,0,0,,,,,,,
+Kienbu (Air),8,2,86,8*12,0,0,0,,,,,,,
+Kiensho,6,2,85,"6,8*9",0,1,1,,,,,,,
+Soukondan (No charge),4,3,109,"5*5,
+8*4",0,0,0,,,,,,,
+Soukondan (Full charge),4,3,156,"5*12,
+8*10",0,0,0,,,,,,,
+"Soukondan (No charge)
+(projectile part)",4,40,109,8*4,0,0,0,,,,,,,
+"Soukondan (Full charge)
+(projectile part)",4,86,156,8*10,0,0,0,,,,,,,

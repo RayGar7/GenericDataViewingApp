@@ -1,0 +1,73 @@
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,,other
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo,
+Standing LP,4,13,7,4,0,1,2,5,-5,-1,21,11,15,
+Standing MP,6,24,7,13,0,2,4,1,-9,-5,26,16,20,
+Standing HP,9,32,7,19,0,3,6,1,-1,1,31,29,31,
+Standing LK,5,17,7,4,0,1,2,2,-8,-4,21,11,15,
+Standing MK,7,28,7,13,0,2,4,-2,-12,-8,26,16,20,
+Standing HK,11,37,7,19,0,3,6,-2,-4,-2,31,29,31,
+Crouching LP,5,13,7,3,0,1,1,6,-4,0,21,11,15,
+Crouching MP,6,19,7,12,0,2,4,6,-4,0,26,16,20,
+Crouching HP,7,36,7,18,0,3,6,-5,-7,-5,31,29,31,立ち強P相当
+Crouching LK,5,19,7,3,0,1,1,0,-,-6,21,-,15,
+Crouching MK,6,23,7,12,0,2,4,2,-,-4,26,-,20,
+Crouching HK,8,37,7,18,0,3,6,-,-,-5,-,-,31,
+Angry Fist,26,56,7,19,0,3,6,0,-8,-,37,29,-,しゃがみガード不可
+jump,frames,EX Arrow,,,,,,,,,,,,
+Neutral Jump,40,41～44,,,,,,,,,,,,
+Forward jump,39,42～46,,,,,,,,,,,,
+Back jump,41,41～44,,,,,,,,,,,,
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,,other
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo,
+Jumping LP,4,-,9,5,0,1,2,15,5,-,26,16,-,
+Jumping MP,"7,8",-,"6,9","8,8",0,"1,1","2,2",15,5,-,26,16,-,
+Jumping HP,5,-,9,21,0,3,6,15,13,-,26,24,-,
+Jumping LK,4,-,9,5,0,1,2,15,5,-,26,16,-,
+Jumping MK,4,-,9,15,0,2,4,15,13,-,26,24,-,
+Jumping HK,7,-,9,21,0,3,6,15,13,-,26,24,-,
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,,other
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo,
+Hard Attack (MP+MK),28,71,7,17,0,3,6,-13,-34,4,37,16,54,
+Throw,3,35,-,"8,8,6,7",0,-,7,-,-,-,-,-,-,
+Back Throw,3,35,-,29,0,-,7,-,-,-,-,-,-,
+name,startup,total,"hit
+stop",damage,meter gain,,,frame advantage,,,stun,,,other
+,,,,,whiff,blo,hit,hit,s.blo,c.blo,hit,s.blo,c.blo,
+Dash Straight (L),9,36,7,18,4,2,4,3,-5,-3,37,29,31,全体 最大45F
+Dash Straight (M),9,36,7,18,4,2,4,3,-5,-3,37,29,31,全体 最大55F
+Dash Straight (H),9,36,7,18,4,2,4,3,-5,-3,37,29,31,全体 最大65F
+Dash Upper (L),11,37,7,18,4,2,4,-,-4,-2,-,29,31,全体 最大46F
+Dash Upper (M),11,37,7,18,4,2,4,-,-4,-2,-,29,31,全体 最大56F
+Dash Upper (H),11,37,7,18,4,2,4,-,-4,-2,-,29,31,全体 最大66F
+Battling Hero (L),18,52,7,17,４,２,４,-,-12,-10,-,29,31,
+Battling Hero (M),18,52,7,17,４,２,４,-,-25,-21,-,16,20,
+Battling Hero (H),18,52,7,17,４,２,４,-,-25,-21,-,16,20,
+Soccer Ball Kick (L),19,47,7,21,4,2,4,-,-6,-4,-,29,31,
+Soccer Ball Kick (M),19,47,7,21,4,2,4,-,-6,-4,-,29,31,
+Soccer Ball Kick (H),19,47,7,21,4,2,4,-,-6,-4,-,29,31,
+Feint Dash (L),-,38,-,0,-,-,-,-,-,-,-,-,-,
+Feint Dash (M),-,38,-,0,-,-,-,-,-,-,-,-,-,
+Feint Dash (H),-,38,-,0,-,-,-,-,-,-,-,-,-,
+Ultimate Punch (Lv1),20,48,7,17,6,0,0,-,-,-4,37,29,31,溜め 59
+Ultimate Punch (Lv2),22,50,7,21,8,0,0,-,-,-4,37,29,31,溜め 139 (+80)
+Ultimate Punch (Lv3),24,52,7,29,10,0,0,-,-,-4,37,29,31,溜め 259 (+120)
+Ultimate Punch (Lv4),26,54,7,34,12,0,0,-,-,-4,-,29,31,溜め 419 (+160)
+Ultimate Punch (Lv5),28,56,7,46,14,0,0,-,-,-4,-,29,31,溜め 619 (+200)
+Ultimate Punch (Lv6),30,58,7,59,16,0,0,-,-,-4,-,29,31,溜め 859 (+240)
+Ultimate Punch (Lv7),32,60,7,68,18,0,0,-,-,-4,-,29,31,溜め 1114 (+255)
+Ultimate Punch (Lv8),34,62,7,76,20,0,0,-,-,-4,-,29,31,溜め 1369 (+255)
+Ultimate Punch (Lv9),36,64,7,89,22,0,0,-,-,-4,-,29,31,溜め 1624 (+255)
+Ultimate Punch (Lv10),38,66,7,97,24,0,0,-,-,-4,-,29,31,溜め 1879 (+255)
+Jack Hammer ,3,35,-,"6,6,5,4,4,7",2,-,7,-,-,-,-,-,-,弱中強の違いなし
+name,startup,,total,damage,meter gain,,,,,,,,,
+,"before
+freeze","after
+freeze",,,whiff,blo,hit,,,,,,,
+Jack Upper ,13,3,45,10,0,1,1,,,,,,,
+Grand Slam Crusher,5,8,127,"11*3,16",0,1,1,,,,,,,
+Crazy Jack (P),5,11,131,"13,11,9,9,17",0,1,1,,,,,,,
+Crazy Jack (K),5,12,131,"13,11,9,9,21",0,1,1,,,,,,,
+Raging Buffalo,6,6,64,50,0,-,1,,,,,,,
